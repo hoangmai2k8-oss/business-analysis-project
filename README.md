@@ -36,18 +36,19 @@ Some of the main insights discovered during the analysis include:
 ---
 
 ## Project Structure
+```text
 project-folder/
 │
 ├── data/
-│   └── data_description.md
+│   └── data_description.md        # Data dictionary, source links, and variable definitions
 │
 ├── munge/
-│   └── data_cleaning.md
+│   └── data_cleaning.md           # Documentation of the steps taken to clean and prep the data
 │
 ├── report/
-│   └── Data_visualization.xlsx
+│   └── Data_visualization.xlsx    # Final interactive dashboards and visualized charts
 │
 ├── src/
-│   └── data_aggregation.md
+│   └── data_aggregation.md        # Notes and formulas used for data aggregation
 │
-├── README.md
+└── README.md                      # Project overview (this file)
